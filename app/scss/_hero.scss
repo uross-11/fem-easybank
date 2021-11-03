@@ -1,7 +1,5 @@
 .hero {
-
     background-color: $veryLightGray;
-
 
     .container {
         @include breakpoint-up(large){
@@ -9,8 +7,6 @@
             align-items: center;
         }
     }
-    
-    
 
     &__image {
         position: relative;
@@ -74,11 +70,7 @@
                 left: 22%;
             }
         }
-
-        
     }
-
-    
 
     &__text {
         text-align: center;
